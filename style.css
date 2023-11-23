@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: darkorchid;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 20%;
+  border: none;
+  box-shadow: 0 0 5px black;
+  transition: 0.3s ease-in;
+}
+
+.square:hover {
+  background-color: gray;
+}
